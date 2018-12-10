@@ -29,7 +29,7 @@ gulp.task('js', () => {
   .pipe(babel({
       presets: ['@babel/env']
   }))  
-  .pipe(gulp.dest('./dist/js'))
+  .pipe(gulp.dest('./src/js'))
   .pipe(browserSync.stream())
 });
 
