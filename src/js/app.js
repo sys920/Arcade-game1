@@ -192,7 +192,7 @@ let stone = new Stone ();
 // check collision between player and stone object
 function checkblock (playerX, playerY){
 
-    if (Math.abs((stone.x-playerX)) < 70 && (Math.abs(stone.y-playerY) < 40)) { 
+    if (Math.abs((stone.x-playerX)) < 71 && (Math.abs(stone.y-playerY) < 40)) { 
         result = true;
     } else {
         result = false;
