@@ -4,6 +4,8 @@ let cleanCSS = require('gulp-clean-css');
 const imagemin = require('gulp-imagemin');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
+const uglify = require('gulp-uglify-es').default;
+
 
 gulp.task('css', () => {
 	return gulp.src('./src/**/*.css') 
@@ -31,5 +33,6 @@ gulp.task('js', () => {
 gulp.task('concat', function() {
   return gulp.src(['./src/js/resources.js', './src/js/app.js', './src/js/engine.js'])
     .pipe(concat('main.js'))
+    .pipe(uglify())
     .pipe(gulp.dest('./dist/js'));
 });
