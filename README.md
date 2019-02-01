@@ -4,11 +4,14 @@ The game is to get your character from the grass over the road.
 -The challenge is to avoid the bugs that travel on the road. 
 -If a bug is touched, the character is back at the beginning, Upon reaching the water, the character is also back to the beginning
 
--app.js : Game logic 
--index.html : HTML5 Canvas Position
--engine.js :  Every few hundred millisecod call the update method 
+# Code
 
-# This Classic Arcade Game require
+-index.html : HTML5 Canvas Position
+-./js/app.js : Game logic 
+-./js/engine.js :  Game engine that every few hundred millisecod call the update method 
+-./js/resources.js : Game characters image files
+
+# Rrequirement
 
 -[Player Movements]
 -The Player can not move off screen
