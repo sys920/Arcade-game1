@@ -1,4 +1,5 @@
-#Arcade-game1 
+# Arcade-game1 
+
 -The point of the game is to get your character from the grass over the road and into the water. 
 -The challenge is to avoid the bugs that travel on the road. 
 -If a bug is touched, the character is reset back at the beginning, Upon reaching the water, the user is also reset back to the beginning
@@ -7,7 +8,7 @@
 -index.html : HTML5 Canvas Position
 -engine.js :  Every few hundred millisecod call the update method 
 
-#This Classic Arcade Game require
+# This Classic Arcade Game require
 
 -[Player Movements]
 -The Player can not move off screen
